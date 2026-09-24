@@ -283,7 +283,7 @@ renderGeo();
 renderSidebar();
 renderSearch();
 renderSteamSlider();
-renderDigitizedList();
+/*renderDigitizedList();*/
 searchIndex = buildSearchIndex();
 initHeroSuggest();
 route();
