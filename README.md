@@ -30,37 +30,6 @@ project/
 └── README.md
 ```
 
-## Локальный запуск
-
-Просто откройте `index.html` в браузере **или** запустите локальный сервер:
-
-```bash
-# Python 3
-python -m http.server 8000
-
-# Node.js (если установлен)
-npx serve .
-```
-
-Затем откройте http://localhost:8000
-
-## Публикация на GitHub Pages
-
-1. Создайте репозиторий на GitHub.
-2. Загрузите все файлы проекта:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/USERNAME/REPO.git
-   git push -u origin main
-   ```
-3. Перейдите в **Settings → Pages**.
-4. В разделе **Source** выберите: `Deploy from a branch`, ветка `main`, папка `/ (root)`.
-5. Через 1–2 минуты сайт будет доступен по адресу:
-   `https://USERNAME.github.io/REPO/`
-
 ## Изображения
 
 Положите свои файлы в `assets/images/`:
