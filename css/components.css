@@ -394,13 +394,13 @@
   margin:0 calc(50% - 50vw) 40px;
   position:relative;overflow:hidden;
 }
-.services::before{
+/*.services::before{
   content:'ИНФОРМАЦИОННЫЕ РЕСУРСЫ';
   position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
   font-family:var(--font-serif);font-size:120px;font-weight:700;
   color:rgba(255,255,255,.03);white-space:nowrap;letter-spacing:10px;
   pointer-events:none;user-select:none;
-}
+}*/
 .services__inner{
   max-width:1152px;margin:0 auto;
   display:grid;grid-template-columns:repeat(3,1fr);gap:20px;
